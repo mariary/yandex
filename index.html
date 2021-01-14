@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css ">
+</head>
+<body>
+<div class="header">
+    <div class="header__location">
+        <a class="header__location_link" href="">Екатеринбург</a>
+    </div>
+    <div class="header__settings">
+        <a class="header__settings_link" href="">Настройка</a>
+        <div class="header__settings_link_menu">
+            <label><input type="checkbox" class="header__settings_link_menu_item">Посещаемое</label>
+            <label><input type="checkbox" class="header__settings_link_menu_item">Лучшие анекдоты</label>
+            <label><input type="checkbox" class="header__settings_link_menu_item">Телепрограмма</label>
+            <label><input type="checkbox" class="header__settings_link_menu_item">Автомобильные новости</label>
+            <label><input type="checkbox" class="header__settings_link_menu_item">Погода</label>
+            <label><input type="checkbox" class="header__settings_link_menu_item">Пробки</label>
+            <label><input type="checkbox" class="header__settings_link_menu_item">Карта Омска</label>
+            <label><input type="checkbox" class="header__settings_link_menu_item">Афиша</label>
+        </div>
+    </div>
+    <div class="header__mail-box">
+        <a class="header__mail-box_login" href="">login</a>
+        <a class="header__mail-box_mail" href="">Почта
+        <span class="header__mail-box_mail_value">198</span>
+        </a>
+    </div>
+</div>
+<div class="container">
+    <div class="content-top">
+        <div class="content-top__news">
+            <div class="content-top__news_links">
+                <a class="content-top__news_links_all content-top__news_links_active" href="">Сейчас в СМИ</a>
+                <a class="content-top__news_links_city" href="">В Екатерибурге</a>
+                <p class="content-top__news_links_data">10 января, воскресенье 22:35</p>
+            </div>
+            <ul class="content-top__news_list">
+                <li class="content-top__news_list_item">Попова рассказала о выявлении британского штамма коронавируса в
+                    России
+                </li>
+                <li class="content-top__news_list_item">Оппоненты Жапарова отказались признать итоги выборов</li>
+                <li class="content-top__news_list_item">Разбившийся в Индонезии Boeing при взлете попал в зону сильной
+                    турбулентности
+                </li>
+                <li class="content-top__news_list_item">Путин обсудил с Макроном встречу лидеров РФ, Азербайджана и
+                    Армении
+                </li>
+                <li class="content-top__news_list_item">Попова рассказала о выявлении британского штамма коронавируса в
+                    России
+                </li>
+            </ul>
+            <div class="content-top__news_money">
+                <div class="content-top__news_money_item">
+                    <div class="content-top__news_money_item_valuta">usd цб</div>
+                    <div class="content-top__news_money_item_value">74,16</div>
+                    <div class="content-top__news_money_item_difference">+0,24</div>
+                </div>
+                <div class="content-top__news_money_item">
+                    <div class="content-top__news_money_item_valuta">eur цб</div>
+                    <div class="content-top__news_money_item_value">90,60</div>
+                    <div class="content-top__news_money_item_difference">-0,50</div>
+                </div>
+                <div class="content-top__news_money_item">
+                    <div class="content-top__news_money_item_valuta">нефть</div>
+                    <div class="content-top__news_money_item_value">56,04</div>
+                    <div class="content-top__news_money_item_difference">+3,62%</div>
+                </div>
+                <button class="content-top__news_money_btn-else"><img class="content-top__news_money_btn-else_img"
+                                                                      src="" alt=""></button>
+            </div>
+        </div>
+        <div class="content-top__advertising">
+            <a class="content-top__advertising_link" href="">
+                <img class="content-top__advertising_link_img" src="" alt="">
+                32 ГБ студентам на Яндекс.Диске
+            </a>
+            <div class="content-top__advertising_text">Бесплатно и навсегда</div>
+        </div>
+    </div>
+    <div class="search">
+        <div class="search__wrapper">
+            <img class="search__wrapper_logo_img" src="" alt="">
+            <div class="search__wrapper_inner">
+                <div class="search__wrapper_inner_link">
+                    <a href="" class="search__wrapper_inner_link_item">Видео</a>
+                    <a href="" class="search__wrapper_inner_link_item">Картинки</a>
+                    <a href="" class="search__wrapper_inner_link_item">Новости</a>
+                    <a href="" class="search__wrapper_inner_link_item">Карты</a>
+                    <a href="" class="search__wrapper_inner_link_item">Маркет</a>
+                    <a href="" class="search__wrapper_inner_link_item">Пеереводчик</a>
+                    <a href="" class="search__wrapper_inner_link_item">Музыка</a>
+                    <a href="" class="search__wrapper_inner_link_item search__wrapper_inner_link_item_more">ещё</a>
+                </div>
+                <div class="search__wrapper_inner_input">
+                    <input type="search" class="search__wrapper_inner_input_search">
+                    <input type="submit" value="Найти">
+                    <button class="search__wrapper_inner_input_btn-voice"><img src="" alt=""
+                                                                               class="search__wrapper_inner_input_btn-voice_img">
+                    </button>
+                    <button class="search__wrapper_inner_input_btn-keyboard"><img src="" alt=""
+                                                                                  class="search__wrapper_inner_input_btn-keyboard_img">
+                    </button>
+                </div>
+                <div class="search__wrapper_inner_text">
+                    Найдется все. Например,
+                    <a href="" class="search__wrapper_inner_text_link">выхожу я один на дорогу</a>
+                </div>
+            </div>
+        </div>
+        <div class="search__advertising">
+            <video src=""></video>
+        </div>
+    </div>
+    <div class="content-bottom">
+        <div class="content-bottom__col1">
+            <div class="content-bottom__col1_visit">
+                <a href="" class="content-bottom__col1_visit_link">Посещаемое</a>
+                <a href="" class="content-bottom__col1_visit_link_item">Маркет<span
+                        class="content-bottom__col1_visit_link_item_text"> - китайская распродажа</span></a>
+                <a href="" class="content-bottom__col1_visit_link_item">Авто.ру<span
+                        class="content-bottom__col1_visit_link_item_text"> - Туссан третьей серии</span></a>
+                <a href="" class="content-bottom__col1_visit_link_item">Недвижимость<span
+                        class="content-bottom__col1_visit_link_item_text"> - продажа студии</span></a>
+                <a href="" class="content-bottom__col1_visit_link_item">Работа<span
+                        class="content-bottom__col1_visit_link_item_text"> - охранником</span></a>
+                <a href="" class="content-bottom__col1_visit_link_item">Здоровье<span
+                        class="content-bottom__col1_visit_link_item_text"> - врач на связи</span></a>
+                <a href="" class="content-bottom__col1_visit_link_item">Коллекции<span
+                        class="content-bottom__col1_visit_link_item_text"> - как мелировать волосы</span></a>
+                <a href="" class="content-bottom__col1_visit_link_item">Авиабилеты<span
+                        class="content-bottom__col1_visit_link_item_text"> - из Омска</span></a>
+            </div>
+            <div class="content-bottom__col1_joke">
+                <a href="" class="content-bottom__col1_joke_link">Лучшие анекдоты</a>
+                <div class="content-bottom__col1_joke_item">
+                    Раздел: <a href="" class="content-bottom__col1_joke_item_kind">Медицинские</a>
+                    <p class="content-bottom__col1_joke_item_text">Вас лечить хорошо или бесплатно?</p>
+                </div>
+                <div class="content-bottom__col1_joke_item">
+                    Раздел: <a href="" class="content-bottom__col1_joke_item_kind">Медицинские</a>
+                    <p class="content-bottom__col1_joke_item_text">Вас лечить хорошо или бесплатно?</p>
+                </div>
+                <div class="content-bottom__col1_joke_item">
+                    Раздел: <a href="" class="content-bottom__col1_joke_item_kind">Медицинские</a>
+                    <p class="content-bottom__col1_joke_item_text">Вас лечить хорошо или бесплатно?</p>
+                </div>
+                <div class="content-bottom__col1_joke_item">
+                    Раздел: <a href="" class="content-bottom__col1_joke_item_kind">Медицинские</a>
+                    <p class="content-bottom__col1_joke_item_text">Вас лечить хорошо или бесплатно?</p>
+                </div>
+                <div class="content-bottom__col1_joke_item">
+                    Раздел: <a href="" class="content-bottom__col1_joke_item_kind">Медицинские</a>
+                    <p class="content-bottom__col1_joke_item_text">Вас лечить хорошо или бесплатно?</p>
+                </div>
+                <div class="content-bottom__col1_joke_item">
+                    Раздел: <a href="" class="content-bottom__col1_joke_item_kind">Медицинские</a>
+                    <p class="content-bottom__col1_joke_item_text">Вас лечить хорошо или бесплатно?</p>
+                </div>
+                <a href="" class="content-bottom__col1_joke_link_else">Показать еще</a>
+            </div>
+        </div>
+        <div class="content-bottom__col2">
+            <div class="content-bottom__col2_tv">
+                <a href="" class="content-bottom__col2_tv_link">Телепрограмма
+                    <button class="content-bottom__col2_tv_link_button">Тв Онлайн</button>
+                </a>
+                <a href="" class="content-bottom__col2_tv_link_item">
+                    <span class="content-bottom__col2_tv_link_item_time">16:00</span>
+                    <span class="content-bottom__col2_tv_link_item_name">Место встречи</span>
+                    <span class="content-bottom__col2_tv_link_item_channel">НТВ</span>
+                </a>
+                <a href="" class="content-bottom__col2_tv_link_item">
+                    <span class="content-bottom__col2_tv_link_item_time">16:30</span>
+                    <span class="content-bottom__col2_tv_link_item_name">Понять. Простить</span>
+                    <span class="content-bottom__col2_tv_link_item_channel">41 Домашний</span>
+                </a>
+                <a href="" class="content-bottom__col2_tv_link_item">
+                    <span class="content-bottom__col2_tv_link_item_time">16:30</span>
+                    <span class="content-bottom__col2_tv_link_item_name">Детективы</span>
+                    <span class="content-bottom__col2_tv_link_item_channel">Пятый канал</span>
+                </a>
+                <a href="" class="content-bottom__col2_tv_link_item">
+                    <span class="content-bottom__col2_tv_link_item_time">16:30</span>
+                    <span class="content-bottom__col2_tv_link_item_name">Новости</span>
+                    <span class="content-bottom__col2_tv_link_item_channel">РЕН ТВ</span>
+                </a>
+                <a href="" class="content-bottom__col2_tv_link_item">
+                    <span class="content-bottom__col2_tv_link_item_time">16:30</span>
+                    <span class="content-bottom__col2_tv_link_item_name">Гадалка</span>
+                    <span class="content-bottom__col2_tv_link_item_channel">ТВ-3</span>
+                </a>
+                <a href="" class="content-bottom__col2_tv_link_item">
+                    <span class="content-bottom__col2_tv_link_item_time">16:30</span>
+                    <span class="content-bottom__col2_tv_link_item_name">Реальные пацаны</span>
+                    <span class="content-bottom__col2_tv_link_item_channel">ТНТ</span>
+                </a>
+            </div>
+            <div class="content-bottom__col2_auto">
+                <a href="" class="content-bottom__col2_auto_link">Автомобильные новости</a>
+                <div class="content-bottom__col2_auto_scroll">
+                    <div class="content-bottom__col2_auto_scroll_item">
+                        <p class="content-bottom__col2_auto_scroll_item_text">В Волгоградской области появятся 6 постов
+                            весогабаритного контроля
+                            <span class="content-bottom__col2_auto_scroll_item_time">12.19</span>
+                        </p>
+                    </div>
+                    <div class="content-bottom__col2_auto_scroll_item">
+                        <p class="content-bottom__col2_auto_scroll_item_text">За качеством очистки сахалинских дорог от
+                            снега каждый день следит ГЛОНАСС
+                            <span class="content-bottom__col2_auto_scroll_item_time">12.19</span>
+                        </p>
+                    </div>
+                    <div class="content-bottom__col2_auto_scroll_item">
+                        <p class="content-bottom__col2_auto_scroll_item_text">Минпромторг советует покупать новые
+                            отечественные автомобили — это выгодно
+                            <span class="content-bottom__col2_auto_scroll_item_time">12.19</span>
+                        </p>
+                    </div>
+                    <div class="content-bottom__col2_auto_scroll_item">
+                        <p class="content-bottom__col2_auto_scroll_item_text">В Иваново создана новая федеральная трасса
+                            «Золотое кольцо»
+                            <span class="content-bottom__col2_auto_scroll_item_time">12.19</span>
+                        </p>
+                    </div>
+                    <div class="content-bottom__col2_auto_scroll_item">
+                        <p class="content-bottom__col2_auto_scroll_item_text">Новый флагмен Китая - Geely HaoYue
+                            <span class="content-bottom__col2_auto_scroll_item_time">12.19</span>
+                        </p>
+                    </div>
+                    <div class="content-bottom__col2_auto_scroll_item">
+                        <p class="content-bottom__col2_auto_scroll_item_text">Семиместный кроссовер Geely: новые
+                            подробности
+                            <span class="content-bottom__col2_auto_scroll_item_time">12.19</span>
+                        </p>
+                    </div>
+                    <div class="content-bottom__col2_auto_scroll_item">
+                        <p class="content-bottom__col2_auto_scroll_item_text">Моржаретто: на федеральном уровне нет
+                            поддержки покупателей электромобилей
+                            <span class="content-bottom__col2_auto_scroll_item_time">12.19</span>
+                        </p>
+                    </div>
+                    <div class="content-bottom__col2_auto_scroll_item">
+                        <p class="content-bottom__col2_auto_scroll_item_text">В Украине стартовал цифровой транспортный
+                            портал
+                            <span class="content-bottom__col2_auto_scroll_item_time">12.19</span>
+                        </p>
+                        <div class="content-bottom__col2_auto_scroll_item">
+                            <p class="content-bottom__col2_auto_scroll_item_text">В Волгоградской области появятся 6
+                                постов
+                                весогабаритного контроля
+                                <span class="content-bottom__col2_auto_scroll_item_time">12.19</span>
+                            </p>
+                        </div>
+                        <div class="content-bottom__col2_auto_scroll_item">
+                            <p class="content-bottom__col2_auto_scroll_item_text">«Эльгауголь» в III квартале увеличил
+                                добычу угля до 1,1 млн тонн
+                                <span class="content-bottom__col2_auto_scroll_item_time">12.19</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-bottom__col3">
+            <div class="content-bottom__col3_weather">
+                <a href="" class="content-bottom__col3_weather_link">Погода</a>
+                <div class="content-bottom__col3_weather_info-now">
+                    <img src="" alt="" class="content-bottom__col3_weather_info-now_img">
+                    <span class="content-bottom__col3_weather_info-now_temp">-3</span>
+                    <span class="content-bottom__col3_weather_info-now_temp_scale">°C</span>
+                </div>
+                <div class="content-bottom__col3_weather_info-all">
+                            <span class="content-bottom__col3_weather_info-all_evening">
+                                Вечер:
+                                <span class="content-bottom__col3_weather_info-all_evening_value">
+                                    -5
+                                </span>
+                            </span>,
+                            <span class="content-bottom__col3_weather_info-all_night">
+                                ночь:
+                                <span class="content-bottom__col3_weather_info-all_evening_value">
+                                    -7
+                                </span>
+                            </span>
+                </div>
+            </div>
+            <div class="content-bottom__col3_stop">
+                <a href="" class="content-bottom__col3_stop_link">Пробки</a>
+                <img src="" alt="" class="content-bottom__col3_stop_img">
+                <span class="content-bottom__col3_stop_level">4 балла</span>
+                <p class="content-bottom__col3_stop_text">Местами затруднения</p>
+            </div>
+            <dEiv class="content-bottom__col3_map">
+                <a href="" class="content-bottom__col3_map_link">Карта Омска</a>
+                <a href="" class="content-bottom__col3_map_link_taxi">Такси</a>
+                <a href="" class="content-bottom__col3_map_link_timetables">Распиания</a>
+                <a href="" class="content-bottom__col3_map_link_bus">Междугородные автобусы</a>
+            </dEiv>
+            <div class="content-bottom__col3_poster">
+                <a href="" class="content-bottom__col3_poster_link">Афиша</a>
+                <div href="" class="content-bottom__col3_poster_link_item">
+                    <a href="" class="content-bottom__col3_poster_link_item_name"></a>Субурбон
+                    <a href="" class="content-bottom__col3_poster_link_item_info"></a>премьера в чт
+                </div>
+                <div href="" class="content-bottom__col3_poster_link_item">
+                    <a href="" class="content-bottom__col3_poster_link_item_name"></a>Посдений богатырь
+                    <a href="" class="content-bottom__col3_poster_link_item_info"></a>мультфильм
+                </div>
+                <div href="" class="content-bottom__col3_poster_link_item">
+                    <a href="" class="content-bottom__col3_poster_link_item_name"></a>Фиксики: Большой секрет
+                    <a href="" class="content-bottom__col3_poster_link_item_info"></a>приключения
+                </div>
+                <div href="" class="content-bottom__col3_poster_link_item">
+                    <a href="" class="content-bottom__col3_poster_link_item_name"></a>Тор
+                    <a href="" class="content-bottom__col3_poster_link_item_info"></a>фэнтези
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
